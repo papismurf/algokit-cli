@@ -98,9 +98,7 @@ Upon execution, the walkthrough will guide you through the key components of you
 
 Once the `Algorand Python` based project is created, you can get started by building and deploying your first smart contract. There are a few possible ways to do so as demonstrated on the following video.
 
-<video src="https://ipfs.algonode.xyz/ipfs/Qma6gNqxsSFc9Jbh8kBTZyVLv5gqFj1xnrsjoeT6MAAwCw/" controls>
-  Your browser does not support the video tag.
-</video>
+[![Watch the video](https://ipfs.algonode.xyz/ipfs/Qmc9mRaPoDyhUFmek4ETxVfKUKzUg9pf3Tss5xwkBGdQis)](https://ipfs.algonode.xyz/ipfs/Qma6gNqxsSFc9Jbh8kBTZyVLv5gqFj1xnrsjoeT6MAAwCw/)
 
 As shown above, click on clicking on `Run and Debug` and then `Build & Deploy contracts`. Alternatively, you can hit F5 (or whatever keyboard shortcut is set in VS Code for running the debugger). While you are viewing the `contract.py` file - it will:
 
