@@ -103,14 +103,14 @@ Once the `Algorand Python` based project is created, you can get started by buil
 As shown above, click on `Run and Debug` and then `Build & Deploy contracts`. Alternatively, you can hit F5 (or whatever keyboard shortcut is set in VS Code for running the debugger). While you are viewing the `contract.py` file - it will:
 
 1. Start LocalNet
-2. Build the smart contract. Notice how a folder named `artifacts` is created with the TEAL and JSON files for the smart contract.
+2. Build the smart contract. Notice how a folder named `artifacts` is created with the [AVM (Algorand Virtual Machine)](https://developer.algorand.org/docs/get-details/dapps/avm/) related artifacts for deploying your smart contract.
 3. Deploy and call the `HelloWorld` smart contract (from `contract.py` file).
 
 After execution, the `App ID` of the deployed contract and its Algorand address are displayed, followed by the message returned from the smart contract call (`Hello, world`).
 
 At this point you have deployed a simple contract to a LocalNet Algorand network (running in your Docker environment) and called it successfully!
 
-Additionally, you can find the native TEAL smart contract code and the appropriate smart contract manifest JSON files have been output to the `artifacts` folder. Note that in this example, TEAL code is compiled using the `PuyaPy` compiler, which is what `Algorand Python` relies on to compile your Python smart contract code to TEAL ([Transaction Execution Approval Language](https://developer.algorand.org/docs/get-details/dapps/avm/teal/)).
+Additionally, you can find the native AVM related artifacts and the appropriate smart contract manifest JSON files have been output to the `artifacts` folder. Note that in this example, AVM bytecode is compiled using the `PuyaPy` compiler, which is what `Algorand Python` relies on to compile your Python smart contract code to TEAL ([Transaction Execution Approval Language](https://developer.algorand.org/docs/get-details/dapps/avm/teal/)).
 
 ### Using AlgoKit CLI to build and deploy contracts 🛠️
 
